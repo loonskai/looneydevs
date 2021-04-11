@@ -1,0 +1,50 @@
+html,
+body,
+div#__next,
+div#container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: 'Secular One', sans-serif;
+}
+
+.welcome-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #3B3C6A;
+  padding: 10px;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.heading-emphasis {
+  display: inline-block;
+  text-decoration: underline #F600EF;
+}
+
+a {
+  display: inline-block;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #F600EF;
+}
+
+a:hover {
+  background-color: #ffffff;
+  color: #3B3C6A;
+}
